@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Shop Tatoo</h1>
-    </div>
+    @include('partials.nav')
+    @yield('content')
+    @include('partials.footer')
 </body>
 </html>
