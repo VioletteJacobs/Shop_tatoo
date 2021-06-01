@@ -5,6 +5,6 @@
         <li>Me contacter</li>
     </ul>
     <div class="banner">
-        <h1>Hello</h1>
+        <h1 id="titre">Hello</h1>
     </div>
 </header>
