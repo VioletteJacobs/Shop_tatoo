@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shop tatoo</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{secure_asset("style.css")}}">
 </head>
 <body>
     @include('partials.nav')
