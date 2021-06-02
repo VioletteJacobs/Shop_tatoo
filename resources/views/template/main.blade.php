@@ -11,5 +11,6 @@
     @include('partials.nav')
     @yield('content')
     @include('partials.footer')
+    <script src="{{secure_asset('js/app.js')}}"></script>
 </body>
 </html>
