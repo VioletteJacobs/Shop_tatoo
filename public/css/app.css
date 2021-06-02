@@ -10002,3 +10002,53 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background: #D8D8E2;
+}
+
+#titre {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: rebeccapurple;
+  text-transform: uppercase;
+}
+
+#titre::after {
+  content: "Tatoo Shop";
+  color: #EFDE74;
+  z-index: -1;
+  font-size: 150px;
+  letter-spacing: 8px;
+  position: absolute;
+}
+
+.horizontal {
+  transform: rotate(-90deg);
+}
+
+#rdv {
+  border: solid black 2px;
+  padding: 5px;
+}
+
+.distortion {
+  width: 580px;
+  height: 720px;
+  position: absolute;
+  right: 300px;
+  bottom: 0;
+}
+
+.network li {
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 0 30px;
+  font-size: 10px;
+  font-weight: 600;
+}
