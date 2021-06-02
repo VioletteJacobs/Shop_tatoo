@@ -10035,6 +10035,7 @@ body {
 #rdv {
   border: solid black 2px;
   padding: 5px;
+  background-color: #EFDE74;
 }
 
 .distortion {
@@ -10051,4 +10052,8 @@ body {
   padding: 0 30px;
   font-size: 10px;
   font-weight: 600;
+}
+
+#minimalisme {
+  color: blue;
 }
