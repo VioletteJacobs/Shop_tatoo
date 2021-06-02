@@ -7,7 +7,9 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-@import '_nav';
+
+
+@import './modules/nav';
 @import '_footer';
 @import '_presentation';
 @import '_motifs';
