@@ -10003,10 +10003,6 @@ h3 {
   }
 }
 * {
-  background-color: brown;
-}
-
-* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10014,40 +10010,45 @@ h3 {
 
 body {
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-repeat: no-repeat;
+  background-size: cover;
   background: #f1f1f1;
 }
 
-#titre {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: rebeccapurple;
-  text-transform: uppercase;
+#banner {
+  background-image: url(/images/bras.jpeg?d1c141ccc1b27db585d99d0062ec3b98);
+  height: 100vh;
+  display: flex;
 }
 
-#titre::after {
-  content: "Tatoo Shop";
+#titre {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  background-color: transparent;
+  color: white;
+  transform: rotate(-90deg);
+}
+
+#titre2 {
   color: #EFDE74;
-  z-index: -1;
-  font-size: 150px;
+  z-index: 10;
+  font-size: 70px;
   letter-spacing: 8px;
   position: absolute;
+  background-color: transparent;
+  transform: rotate(-90deg);
 }
 
-.horizontal {
+#since {
+  background-color: transparent;
   transform: rotate(-90deg);
 }
 
 #rdv {
-  border: solid black 2px;
+  border-radius: 50%;
   padding: 5px;
   background-color: #EFDE74;
-}
-
-.distortion {
-  width: 580px;
-  height: 720px;
-  position: absolute;
-  right: 300px;
-  bottom: 0;
 }
 
 .network li {
